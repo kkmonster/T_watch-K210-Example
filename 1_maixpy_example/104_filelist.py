@@ -1,4 +1,4 @@
-## Copyright (c) 2019 aNoken 
+## Copyright (c) 2019 aNoken
 ## https://anoken.jimdo.com/
 ## https://github.com/anoken/purin_wo_motto_mimamoru_gijutsu
 
@@ -8,9 +8,9 @@ devices = os.listdir("/")
 
 if "flash" in devices:
     os.chdir("/flash")
-    print("flash")
+    print("\n\nflash")
     print(os.listdir())
 if "sd" in devices:
     os.chdir("/sd")
-    print("sd")
+    print("\n\nsd")
     print(os.listdir())
